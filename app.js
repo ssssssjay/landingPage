@@ -51,11 +51,6 @@ function scrollUpFunc(event) {
   window.scrollTo({ top:0, behavior: 'smooth' })
 }
 
-$('.btn_gotop').click(function(){
-	$('html, body').animate({scrollTop:0},400);
-	return false;
-});
-
 
 // 이메일 유효성검사
 const userMail = document.querySelector("#user-mail");
