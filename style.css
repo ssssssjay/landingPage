@@ -297,6 +297,9 @@ footer ul li {
 footer ul li+li {
   margin-left: 20px;
 }
+.sns {
+  position: relative;
+}
 
 .sns::before {
   display: block;
