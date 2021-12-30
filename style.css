@@ -433,6 +433,7 @@ footer ul li+li {
   
   .main-logo {
     display: inline-block;
+    width: 48px;
     height: 28px;
     margin: 24px 0 24px;
   }
@@ -633,6 +634,7 @@ footer ul li+li {
   }
   .logo-footer {
     display: inline-block;
+    width: 52px;
     height: 34px;
     margin-bottom: 60px;
   }
