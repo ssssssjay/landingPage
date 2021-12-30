@@ -1,0 +1,405 @@
+body { 
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+}
+
+.sr-only {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+/* -------------------------------인트로 구간------------------------------- */
+
+.introduce {
+  background-color: #D5D1FF;
+}
+.cont-width {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-logo {
+  display: inline-block;
+  height: 40px;
+  margin: 30px 0 30px;
+}
+.main-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header nav {
+}
+
+header ul {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+header ul li:first-child {
+  margin-left: 0;
+}
+
+header ul li a {
+  display: inline-block;
+  padding: 15px 30px;
+}
+header ul li a:hover {
+  color: #6667AB;
+  transition: all 0.3s;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: #6667AB;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 40px;
+}
+.btn:hover {
+  background-color: #464555;
+  color: #D5D1FF;
+  transition: all 0.3s;
+
+}
+
+.introduce {
+  background-image: url(./images/고양이\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 415px;
+  background-position: 85% 115%;
+}
+
+
+.intro-tit {
+  max-width: 580px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.intro-desc {
+  max-width: 439px;
+  line-height: 20px;
+}
+
+.intro-btn {
+  margin-top: 40px;
+  margin-bottom: 292px;
+}
+
+/* -------------------------------소개 구간------------------------------- */
+.sungjae {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.sj-pic {
+  width: 660px;
+  height: 390px;
+  background-color: #6667AB;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 30px;
+}
+.sj-pic img {
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.sungjae article {
+  max-width: 510px;
+}
+
+
+.sungjae-tit {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+.sungjae-desc {
+  line-height: 22px;
+  margin-top: 15px;
+}
+b {
+  color: #6667AB;
+}
+
+/* -------------------------------포트폴리오 구간------------------------------- */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio-tit {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #6667AB;
+  margin-bottom: 40px;
+}
+.portfolio-desc {
+  line-height: 20px;
+  margin-bottom: 88px;
+}
+
+.portfolio ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio ul li+li {
+  margin-left: 72px;
+}
+
+.portfolio ul a {
+  display: inline-block;
+  width: 378px;
+  height: 378px;
+  overflow: hidden;
+  
+}
+.portfolio section a {
+  vertical-align: baseline;
+  height: 50px;
+  padding-top: 16px;
+}
+.portfolio ul a:hover {
+  transform: translate(-3px, -7px);
+  transition: all 0.3s;
+}
+.portfolio a img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+strong {
+  color: #6667AB;
+  font-weight: 700;
+}
+
+.portfolio section {
+  max-width: 980px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 196px;
+}
+.extra-desc {
+  max-width: 739px;
+  margin-right: 52px;
+  line-height: 21px;
+}
+
+/* -------------------------------구독 구간------------------------------- */
+.bottom {
+  background-image: url(./images/bottom-bg.png);
+  background-position: center;
+  position: relative;
+  height: 340px;
+}
+
+.subscribe {
+  background-color: #464555;
+  border-radius: 30px;
+  color: #fff;
+  padding: 50px 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: absolute;
+  top: -120px;
+}
+.subs-left {
+  max-width: 491px;
+  margin-right: 143px;
+}
+
+.subs-tit {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 18px;
+}
+.subs-desc {
+  line-height: 20px;
+}
+.subscribe form {
+  position: relative;
+  display: inline-block;
+}
+
+.inp-subs {
+  width: 530px;
+  padding: 20px 0 20px 50px;
+  border-radius: 30px;
+  border: none;
+  background-image: url(./images/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+}
+.inp-subs:focus {
+  outline: none;
+}
+
+.btn-subs {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+/* -------------------------------푸터 구간------------------------------- */
+footer .cont-width{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0 45px 0;
+}
+.logo-footer {
+  display: inline-block;
+  height: 70px;
+}
+.logo-footer img {
+  width: 100%;
+  height: 100%;
+}
+footer ul li {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #8F8CB8;
+}
+
+footer ul li+li {
+  margin-left: 20px;
+}
+
+.sns::before {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  content: '';
+  background-repeat: no-repeat;
+  background-size: 24px;
+}
+
+.blog-footer::before {
+  background-image: url(./images/blog.png);
+}
+.insta-footer::before {
+  background-image: url(./images/instagram.png);
+}
+.face-footer::before {
+  background-image: url(./images/facebook.png);
+}
+.tube-footer::before {
+  background-image: url(./images/youtube.png);
+}
+
+/* -------------------------------모달 구간------------------------------- */
+.bg-modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.bg-modal.show {
+  display: flex;
+}
+
+.modal {
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: #D5D1FF;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  padding: 76px 145px 68px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal img {
+  width: 110px;
+  margin-bottom: 24px;
+}
+.modal-tit {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 12px;
+}
+
+.modal-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 38px;
+}
+/* -------------------------------헤더고정구간------------------------------- */
+.on {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #D5D1FF;
+  z-index: 20;
+  border-bottom: 1px solid #6667AB;
+  height: 100px;
+}
+/* -----------------------------스크롤버튼----------------------------- */
+#scroll-up {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  background-image: url(./images/keyboard_arrow_up_nonhover.svg);
+  background-position: center;
+  background-color: #fff;
+  border-radius: 50%;
+}
+#scroll-up:hover {
+  background-image: url(./images/keyboard_arrow_up.svg);
+}
+.scroll-fixed {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  cursor: pointer;
+  z-index: 99;
+}
