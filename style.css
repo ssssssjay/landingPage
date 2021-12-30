@@ -652,6 +652,7 @@ footer ul li+li {
     width: 18px;
     height: 18px;
     background-size: 18px;
+    background-position: center;
   }
 
   /* -------------------------------모달 구간------------------------------- */
